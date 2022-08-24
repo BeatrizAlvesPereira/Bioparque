@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.topo, .rodape{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff8014;
+    padding: 16px 0;
+}
+.area-limitada{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.secao-conteudo{
+    width: calc(100% - 70px);
+    height: 315px;
+    overflow-y: scroll;
+
+}
+.galeria{
+    width: calc(100% - 70px);
+}
+.area{
+    margin: 20px 35px;
+}
+img, .area p, .tres-imagens{
+    width: 100%;
+    margin: 15px 0;
+}
+.tres-imagens{
+    display: flex;
+    overflow-x: scroll;
+}
+img{
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
